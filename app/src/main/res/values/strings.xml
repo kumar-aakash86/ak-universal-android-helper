@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AKUH Sample App</string>
+
+    <string name="btn_log_error">Log Error Exception</string>
+    <string name="btn_log_debug">Log Debug Exception</string>
+    <string name="btn_log_info">Log Info Exception</string>
+    <string name="btn_log_verbose">Log Verbose Exception</string>
+    <string name="btn_log_warn">Log Warn Exception</string>
+    <string name="btn_check_network">Check Network Status</string>
+</resources>
