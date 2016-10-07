@@ -1,6 +1,7 @@
 package ak.andro.app.akuhsampleapp.samples;
 
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -31,11 +32,18 @@ public class DeviceStatsActivity extends AppCompatActivity {
             case "ns":
                 CheckNetworkStatus();
                 break;
+            case "cgps":
+                CheckIfGPSAvailable();
+                break;
         }
     }
 
     private void CheckNetworkStatus() {
-        boolean bNetwork = DeviceStatsFunctions.isNetworkAvailable(mContext);
-        Toast.makeText(mContext, "Network "+(bNetwork ? "Enabeled" : "Disabled"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Network "+(DeviceStatsFunctions.isNetworkAvailable(mContext) ? "Enabeled" : "Disabled"), Toast.LENGTH_LONG).show();
     }
+    private void CheckIfGPSAvailable() {
+        PackageManager pm = mContext.getPackageManager();
+        Toast.makeText(mContext, "GPS "+(pm.hasSystemFeature(PackageManager.FEATURE_LOCATION_GPS) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+    }
+
 }

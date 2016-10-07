@@ -15,7 +15,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.e("",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -23,7 +23,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.d("",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -31,7 +31,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.i("",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -39,7 +39,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.v("",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -47,7 +47,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.w("",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -57,7 +57,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.e("",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -65,7 +65,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.d("",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -73,7 +73,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.i("",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -81,7 +81,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.v("",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -89,7 +89,7 @@ public class LogFunctions {
     {
         if(cls != null)
         {
-            Log.w("",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 //	LOG MESSAGES
