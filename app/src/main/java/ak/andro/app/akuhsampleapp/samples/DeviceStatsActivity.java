@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import ak.andro.app.akuhsampleapp.R;
-import ak.andro.app.akuniversalhelper.Log.DeviceStatsFunctions;
+import ak.andro.app.akuniversalhelper.Device.DeviceStatsFunctions;
 
 /**
  * Created by AAKASH on 04-10-2016.

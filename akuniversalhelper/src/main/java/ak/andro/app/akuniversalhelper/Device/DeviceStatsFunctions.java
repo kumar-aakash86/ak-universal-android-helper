@@ -1,4 +1,4 @@
-package ak.andro.app.akuniversalhelper.Log;
+package ak.andro.app.akuniversalhelper.Device;
 
 import android.Manifest;
 import android.content.Context;
@@ -6,6 +6,8 @@ import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.annotation.RequiresPermission;
+
+import ak.andro.app.akuniversalhelper.Log.LogFunctions;
 
 /**
  * Created by AAKASH on 04-10-2016.
