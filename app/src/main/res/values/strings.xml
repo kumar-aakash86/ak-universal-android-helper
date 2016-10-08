@@ -1,14 +1,29 @@
 <resources>
     <string name="app_name">AKUH Sample App</string>
 
+    <string name="btn_log_messages">Log Messages</string>
     <string name="btn_log_error">Log Error Exception</string>
     <string name="btn_log_debug">Log Debug Exception</string>
     <string name="btn_log_info">Log Info Exception</string>
     <string name="btn_log_verbose">Log Verbose Exception</string>
     <string name="btn_log_warn">Log Warn Exception</string>
 
+    <string name="btn_device_stats">Device Stats</string>
     <string name="btn_check_network">Check Network Status</string>
     <string name="btn_check_gps">Check GPS Module</string>
     <string name="btn_check_gyro">Check Gyro Scope</string>
     <string name="btn_check_front_cam">Check Front Camera</string>
+
+    <string name="btn_alerts">Alerts</string>
+    <string name="btn_snackbars">Snackbars</string>
+    <string name="btn_default_snackbar">Default Style</string>
+    <string name="btn_alert_snackbar">Alert Style</string>
+    <string name="btn_success_snackbar">Success Style</string>
+    <string name="btn_info_snackbar">Info Style</string>
+    <string name="btn_custom_snackbar">Custom Style</string>
+
+    <string name="lbl_red">RED</string>
+    <string name="lbl_green">GREEN</string>
+    <string name="lbl_blue">BLUE</string>
+    <string name="lbl_alpha">ALPHA</string>
 </resources>

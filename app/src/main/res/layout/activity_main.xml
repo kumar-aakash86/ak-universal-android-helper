@@ -14,13 +14,19 @@
         android:id="@+id/btn_log"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log Messages"
+        android:text="@string/btn_log_messages"
         android:onClick="ActionClick"/>
 
     <Button
         android:id="@+id/btn_device_stats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Device Stats"
+        android:text="@string/btn_device_stats"
+        android:onClick="ActionClick"/>
+    <Button
+        android:id="@+id/btn_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_alerts"
         android:onClick="ActionClick"/>
 </LinearLayout>
