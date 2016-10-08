@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\AKUHSampleApp\akuniversalhelper\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="87f6f8e34dd8db4d53d6eb202444fe8746226b4f">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\AKUHSampleApp-akuniversalhelper-unspecified_33b2c5b07987f5e5fb27d4d118946ec3a363fb1a.jar" />
+    </item>
+
+</items>

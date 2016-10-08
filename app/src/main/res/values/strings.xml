@@ -6,6 +6,9 @@
     <string name="btn_log_info">Log Info Exception</string>
     <string name="btn_log_verbose">Log Verbose Exception</string>
     <string name="btn_log_warn">Log Warn Exception</string>
+
     <string name="btn_check_network">Check Network Status</string>
     <string name="btn_check_gps">Check GPS Module</string>
+    <string name="btn_check_gyro">Check Gyro Scope</string>
+    <string name="btn_check_front_cam">Check Front Camera</string>
 </resources>

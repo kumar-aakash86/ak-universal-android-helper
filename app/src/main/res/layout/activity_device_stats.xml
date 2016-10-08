@@ -9,6 +9,7 @@
         android:onClick="ActionClick"
         android:tag="ns"
         android:text="@string/btn_check_network"
+        android:layout_marginTop="10dp"
         />
     <Button
         android:id="@+id/btn_check_gps"
@@ -17,6 +18,24 @@
         android:onClick="ActionClick"
         android:tag="cgps"
         android:text="@string/btn_check_gps"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_check_gyro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="gyro"
+        android:text="@string/btn_check_gyro"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_check_front_cam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="fcam"
+        android:text="@string/btn_check_front_cam"
         android:layout_marginTop="10dp"
         />
 </LinearLayout>
