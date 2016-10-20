@@ -7,6 +7,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+//        classpath 'com.github.kumar-aakash86:ak-universal-android-helper:1.1'
 //        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1' // Add this line
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,8 +20,6 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }
     }
-}
-dependencies {
 }
 
 task clean(type: Delete) {
