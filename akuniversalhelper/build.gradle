@@ -10,7 +10,7 @@ ext {
     libraryName = 'AKUniversalHelper'
     artifact = 'ak-universal-android-helper'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.1'
     developerId = 'kumar-aakash86'
 }
 android {
