@@ -7,11 +7,25 @@ ext {
     bintrayRepo = 'ak-universal-android-helper'
     bintrayName = 'ak-universal-android-helper'
 
+    publishedGroupId = 'com.ak.kumar-aakash86'
     libraryName = 'AKUniversalHelper'
     artifact = 'ak-universal-android-helper'
+    libraryVersion = '0.1'
 
-    libraryVersion = '1.1'
+
+
+    libraryDescription = 'A helper library to ease the most repetitive codes with simple reusable attributes'
+
+    siteUrl = 'https://github.com/kumar-aakash86/ak-universal-android-helper'
+    gitUrl = 'https://github.com/kumar-aakash86/ak-universal-android-helper.git'
+
     developerId = 'kumar-aakash86'
+    developerName = 'Aakash Kumar'
+    developerEmail = 'kumar_aakash86@yahoo.in'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 android {
     compileSdkVersion 23
@@ -21,7 +35,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
     }
     buildTypes {
         release {
@@ -37,3 +51,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.1.1'
 }
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
