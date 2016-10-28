@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.SeekBar;
 
 import ak.andro.kumaraakash86.akuhsampleapp.R;
-import ak.andro.kumaraakash86.akuniversalhelper.Alerts.SnackFunctions;
+import ak.andro.kumaraakash86.akuniversalhelper.Alerts.AKSnackFunctions;
 
 /**
  * Created by AAKASH on 08-10-2016.
@@ -88,19 +88,19 @@ public class SnackbarsActivity extends AppCompatActivity {
         switch (view.getId())
         {
             case R.id.btn_default_snackbar:
-                SnackFunctions.ShowSnackbar(mActivity, "This is default snackbar");
+                AKSnackFunctions.ShowSnackbar(mActivity, "This is default snackbar");
                 break;
             case R.id.btn_alert_snackbar:
-                SnackFunctions.ShowSnackbar(mActivity, "This is alert snackbar", SnackFunctions.SnackType.Alert);
+                AKSnackFunctions.ShowSnackbar(mActivity, "This is alert snackbar", AKSnackFunctions.SnackType.Alert);
                 break;
             case R.id.btn_success_snackbar:
-                SnackFunctions.ShowSnackbar(mActivity, "This is success snackbar", SnackFunctions.SnackType.Success);
+                AKSnackFunctions.ShowSnackbar(mActivity, "This is success snackbar", AKSnackFunctions.SnackType.Success);
                 break;
             case R.id.btn_info_snackbar:
-                SnackFunctions.ShowSnackbar(mActivity, "This is info snackbar", SnackFunctions.SnackType.Info);
+                AKSnackFunctions.ShowSnackbar(mActivity, "This is info snackbar", AKSnackFunctions.SnackType.Info);
                 break;
             case R.id.btn_custom_snackbar:
-                SnackFunctions.ShowSnackbar(mActivity, "This is custom snackbar", Color.argb(alpha, red, green, blue));
+                AKSnackFunctions.ShowSnackbar(mActivity, "This is custom snackbar", Color.argb(alpha, red, green, blue));
                 break;
         }
     }

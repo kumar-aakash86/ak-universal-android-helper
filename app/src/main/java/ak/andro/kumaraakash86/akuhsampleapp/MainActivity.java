@@ -8,6 +8,7 @@ import android.view.View;
 
 import ak.andro.kumaraakash86.akuhsampleapp.samples.AlertsActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DeviceStatsActivity;
+import ak.andro.kumaraakash86.akuhsampleapp.samples.FontActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.LogMessagesActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_alerts:
                 startActivity(new Intent(mContext, AlertsActivity.class));
+                break;
+            case R.id.btn_fonts:
+                startActivity(new Intent(mContext, FontActivity.class));
                 break;
         }
     }

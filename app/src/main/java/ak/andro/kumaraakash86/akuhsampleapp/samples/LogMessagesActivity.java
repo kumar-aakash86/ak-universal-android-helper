@@ -8,7 +8,7 @@ import android.view.View;
 import org.json.JSONException;
 
 import ak.andro.kumaraakash86.akuhsampleapp.R;
-import ak.andro.kumaraakash86.akuniversalhelper.Log.LogFunctions;
+import ak.andro.kumaraakash86.akuniversalhelper.Log.AKLogFunctions;
 
 /**
  * Created by AAKASH on 5/19/2016.
@@ -32,7 +32,7 @@ public class LogMessagesActivity extends AppCompatActivity {
             case R.id.btn_log_info_exception:
             case R.id.btn_log_verbose_exception:
             case R.id.btn_log_warn_exception:
-                //LogFunctions.ErrorMessage(getClass(), "LOG ERROR", new Exception("This is error log message"));
+                //AKLogFunctions.ErrorMessage(getClass(), "LOG ERROR", new Exception("This is error log message"));
                 RaiseError(view.getTag().toString());
                 break;
         }
@@ -49,19 +49,19 @@ public class LogMessagesActivity extends AppCompatActivity {
             switch (tag)
             {
                 case "e":
-                    LogFunctions.ErrorMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.ErrorMessage(getClass(), "LOG ERROR", e);
                     break;
                 case "d":
-                    LogFunctions.DebugMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.DebugMessage(getClass(), "LOG ERROR", e);
                     break;
                 case "i":
-                    LogFunctions.InfoMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.InfoMessage(getClass(), "LOG ERROR", e);
                     break;
                 case "w":
-                    LogFunctions.WarnMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.WarnMessage(getClass(), "LOG ERROR", e);
                     break;
                 case "v":
-                    LogFunctions.VerboseMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.VerboseMessage(getClass(), "LOG ERROR", e);
                     break;
             }
         }
@@ -75,19 +75,19 @@ public class LogMessagesActivity extends AppCompatActivity {
             switch (tag)
             {
                 case "e":
-                    LogFunctions.ErrorMessage(getClass(), null, e);
+                    AKLogFunctions.ErrorMessage(getClass(), null, e);
                     break;
                 case "d":
-                    LogFunctions.DebugMessage(getClass(), null, e);
+                    AKLogFunctions.DebugMessage(getClass(), null, e);
                     break;
                 case "i":
-                    LogFunctions.InfoMessage(getClass(), null, e);
+                    AKLogFunctions.InfoMessage(getClass(), null, e);
                     break;
                 case "w":
-                    LogFunctions.WarnMessage(getClass(), null, e);
+                    AKLogFunctions.WarnMessage(getClass(), null, e);
                     break;
                 case "v":
-                    LogFunctions.VerboseMessage(getClass(), null, e);
+                    AKLogFunctions.VerboseMessage(getClass(), null, e);
                     break;
             }
         }

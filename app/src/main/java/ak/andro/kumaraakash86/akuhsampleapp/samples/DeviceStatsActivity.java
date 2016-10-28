@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import ak.andro.kumaraakash86.akuhsampleapp.R;
-import ak.andro.kumaraakash86.akuniversalhelper.Device.DeviceStatsFunctions;
+import ak.andro.kumaraakash86.akuniversalhelper.Device.AKDeviceStatsFunctions;
 
 /**
  * Created by AAKASH on 04-10-2016.
@@ -44,17 +44,17 @@ public class DeviceStatsActivity extends AppCompatActivity {
     }
 
     private void CheckNetworkStatus() {
-        Toast.makeText(mContext, "Network "+(DeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabeled" : "Disabled"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Network "+(AKDeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabeled" : "Disabled"), Toast.LENGTH_LONG).show();
     }
     private void CheckIfGPSAvailable() {
 
-        Toast.makeText(mContext, "GPS "+(DeviceStatsFunctions.IsGPSModuleAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "GPS "+(AKDeviceStatsFunctions.IsGPSModuleAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
     }
     private void CheckIfGyroscopeAvailable() {
-        Toast.makeText(mContext, "GyroScope "+(DeviceStatsFunctions.IsGyroscopeAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "GyroScope "+(AKDeviceStatsFunctions.IsGyroscopeAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
     }
     private void CheckIfFrontCameraAvailable() {
-        Toast.makeText(mContext, "Front Camera "+(DeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Front Camera "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
     }
 
 }

@@ -2,67 +2,74 @@
 <items version="2" >
 
     <item
-        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_cb5a902d701751d4dc11606f30b148a96048a37e.jar" />
-    </item>
-    <item
         jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_e1c26b5b5dfd8fa9cf14734f538cee6906b64fd9.jar" />
-    </item>
-    <item
-        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_84740e53608d450781c7e7f0f60dfb558d0d22e7.jar" />
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_e1c26b5b5dfd8fa9cf14734f538cee6906b64fd9\classes.dex" />
     </item>
     <item
         jar="E:\softwares\Programming\android\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.2"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_219ec6e2ed4a82d976fee955101e4c2c0de9210e.jar" />
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_219ec6e2ed4a82d976fee955101e4c2c0de9210e\classes.dex" />
     </item>
     <item
-        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
-        jumboMode="false"
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_95307d4340fb09d55d2c187120229ac64ed907da.jar" />
+        sha1="3f675d4987daf383fb8d58b6b7f909cf9b862599">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af04d2001d94296209f2849d648b2692ee1c952b\classes.dex" />
     </item>
     <item
         jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.2"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_1a153df9334e7f5a070c6521b63d1855b1653a79.jar" />
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_1a153df9334e7f5a070c6521b63d1855b1653a79\classes.dex" />
     </item>
     <item
-        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\ak.andro.app\akuniversalhelper\0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="d7fdc3bb73b6defc06bffd635394d7be0b9347be">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\ak.andro.app-akuniversalhelper-0.1_8f62ad68e46d4dd44aee2054ebc203282cffccc1.jar" />
-    </item>
-    <item
-        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_19896204b15487935461d64b4ae4dc4bf42825e3.jar" />
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_95307d4340fb09d55d2c187120229ac64ed907da\classes.dex" />
     </item>
     <item
         jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.2"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_0f0bd3c2b3e4c9409cc4e6a44e42bcce783aa0f1.jar" />
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_0f0bd3c2b3e4c9409cc4e6a44e42bcce783aa0f1\classes.dex" />
+    </item>
+    <item
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cae3e99dae9c81f1231e8699c6c87855edd5f5cf">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_820461f1ddc726d2534481d6be2108729e38cba3\classes.dex" />
+    </item>
+    <item
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_19896204b15487935461d64b4ae4dc4bf42825e3\classes.dex" />
+    </item>
+    <item
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_84740e53608d450781c7e7f0f60dfb558d0d22e7\classes.dex" />
+    </item>
+    <item
+        jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_cb5a902d701751d4dc11606f30b148a96048a37e\classes.dex" />
     </item>
 
 </items>
