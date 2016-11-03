@@ -23,3 +23,11 @@ AKUAH helps you to identity device specific info & device other status like Netw
     
 [**Alerts and Notifications**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)    
 Custom snackbars
+
+
+**Usage**    
+Add this in your application's build.gradle
+'compile 'ak.andro.kumaraakash86:ak-universal-helper:0.10'
+
+You are ready to go.
+See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide
