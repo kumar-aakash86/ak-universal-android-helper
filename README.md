@@ -8,11 +8,11 @@ I have not implemented all the features I used to have in my old library but wil
 
 Currently this library contains following features.
 
-[**Custom Detailed Log Messages**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Log-Messages)
-    AKUAH provides a simple solution for this logging with more detailed solution than android default log. It provides a more simple & clean solution for the logging.
+[**Custom Detailed Log Messages**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Log-Messages)    
+AKUAH provides a simple solution for this logging with more detailed solution than android default log. It provides a more simple & clean solution for the logging.
     
-[**Device Stats Check**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Device-Stats-Check)
-    AKUAH helps you to identity device specific info & device other status like Network availability, GPS Module availability, Gyroscope availability, Front Camera availability etc.
+[**Device Stats Check**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Device-Stats-Check)    
+AKUAH helps you to identity device specific info & device other status like Network availability, GPS Module availability, Gyroscope availability, Front Camera availability etc.
 
 **It includes following options**
 
@@ -21,5 +21,5 @@ Currently this library contains following features.
     Check Gyroscope Module availability in device
     Check Front Camera availability in device
     
-[**Alerts and Notifications**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)
-    Custom snackbars
+[**Alerts and Notifications**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)    
+Custom snackbars
