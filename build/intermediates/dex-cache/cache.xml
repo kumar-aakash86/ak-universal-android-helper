@@ -19,7 +19,7 @@
         jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="3f675d4987daf383fb8d58b6b7f909cf9b862599">
+        sha1="17514dc629a0e9351537252646eba142fe31245f">
         <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af04d2001d94296209f2849d648b2692ee1c952b\classes.dex" />
     </item>
     <item
@@ -47,7 +47,7 @@
         jar="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="cae3e99dae9c81f1231e8699c6c87855edd5f5cf">
+        sha1="8a296a282960e190ec01a272a28238c722bfb21d">
         <dex dex="F:\MyWorks\Libraries\mobile\UniversalHelper\AKUHSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_820461f1ddc726d2534481d6be2108729e38cba3\classes.dex" />
     </item>
     <item
