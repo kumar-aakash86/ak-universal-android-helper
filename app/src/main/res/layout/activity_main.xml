@@ -35,4 +35,10 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_fonts"
         android:onClick="ActionClick"/>
+    <Button
+        android:id="@+id/btn_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_date_formats"
+        android:onClick="ActionClick"/>
 </LinearLayout>

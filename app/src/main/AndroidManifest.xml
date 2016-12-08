@@ -31,7 +31,8 @@
         <activity
             android:name=".samples.SnackbarsActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".samples.FontActivity"></activity>
+        <activity android:name=".samples.FontActivity" />
+        <activity android:name=".samples.DateActivity"></activity>
     </application>
 
 </manifest>

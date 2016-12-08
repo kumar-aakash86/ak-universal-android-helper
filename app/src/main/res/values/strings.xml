@@ -22,6 +22,7 @@
     <string name="btn_info_snackbar">Info Style</string>
     <string name="btn_custom_snackbar">Custom Style</string>
     <string name="btn_fonts">Set Fonts</string>
+    <string name="btn_date_formats">Date Formats</string>
 
     <string name="lbl_red">RED</string>
     <string name="lbl_green">GREEN</string>
