@@ -30,7 +30,7 @@ Custom snackbars
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:0.10'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:0.12'
 
 
 **Setup**    
@@ -40,4 +40,13 @@ Setup AKUniversalHelper with following code in application file.
         AKUniversalHelper.getInstance().init(config.build());
 
 You are ready to go.    
-See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide
+See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
+    
+    
+**Version: 0.12**    
+* Shake Detection    
+    
+    
+**Version: 0.11**    
+* Library Setup from application file for advance future implementation
+* Enable/Disable library logs from library setup
