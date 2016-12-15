@@ -52,16 +52,16 @@ public class LogMessagesActivity extends AppCompatActivity {
                     AKLogFunctions.ErrorMessage(getClass(), "LOG ERROR", e);
                     break;
                 case "d":
-                    AKLogFunctions.DebugMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.DebugMessage(getClass(), "LOG DEBUG", e);
                     break;
                 case "i":
-                    AKLogFunctions.InfoMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.InfoMessage(getClass(), "LOG INFO", e);
                     break;
                 case "w":
-                    AKLogFunctions.WarnMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.WarnMessage(getClass(), "LOG WARNING", e);
                     break;
                 case "v":
-                    AKLogFunctions.VerboseMessage(getClass(), "LOG ERROR", e);
+                    AKLogFunctions.VerboseMessage(getClass(), "LOG VERBOSE", e);
                     break;
             }
         }
