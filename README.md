@@ -30,5 +30,12 @@ Add this in your application's build.gradle
     
     compile 'ak.andro.kumaraakash86:ak-universal-helper:0.10'
 
+
+**Setup**
+Setup AKUniversalHelper with following code in application file.
+
+        AKUniversalConfiguration.Builder config = new AKUniversalConfiguration.Builder(mContext);
+        AKUniversalHelper.getInstance().init(config.build());
+
 You are ready to go.    
 See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide
