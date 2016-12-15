@@ -3,6 +3,7 @@
     package="ak.andro.kumaraakash86.akuhsampleapp">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -29,10 +30,12 @@
             android:name=".samples.AlertsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".samples.SnackbarsActivity"
+            android:name=".samples.child.SnackbarsActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".samples.FontActivity" />
-        <activity android:name=".samples.DateActivity"></activity>
+        <activity android:name=".samples.DateActivity" />
+        <activity android:name=".samples.ActionEventActivity" />
+        <activity android:name=".samples.child.ShakeActivity"></activity>
     </application>
 
 </manifest>

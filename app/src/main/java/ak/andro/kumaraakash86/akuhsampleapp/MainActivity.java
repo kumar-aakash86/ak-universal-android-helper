@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import ak.andro.kumaraakash86.akuhsampleapp.samples.ActionEventActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.AlertsActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DateActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DeviceStatsActivity;
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_dates:
                 startActivity(new Intent(mContext, DateActivity.class));
+                break;
+            case R.id.btn_action_events:
+                startActivity(new Intent(mContext, ActionEventActivity.class));
                 break;
         }
     }

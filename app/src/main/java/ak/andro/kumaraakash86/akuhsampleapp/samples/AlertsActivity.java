@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import ak.andro.kumaraakash86.akuhsampleapp.R;
+import ak.andro.kumaraakash86.akuhsampleapp.samples.child.SnackbarsActivity;
 
 /**
  * Created by AAKASH on 08-10-2016.

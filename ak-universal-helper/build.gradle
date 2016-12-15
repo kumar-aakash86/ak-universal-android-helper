@@ -10,7 +10,7 @@ ext {
     publishedGroupId = 'ak.andro.kumaraakash86'
     libraryName = 'ak-universal-helper' //same as module name
     artifact = 'ak-universal-helper'    //same as module name
-    libraryVersion = '0.11'
+    libraryVersion = '0.12'
 
 
 
