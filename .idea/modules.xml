@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AKUHSampleApp.iml" filepath="$PROJECT_DIR$/AKUHSampleApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ak-universal-helper/ak-universal-helper.iml" filepath="$PROJECT_DIR$/ak-universal-helper/ak-universal-helper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ak-universal-helper/akuniversalhelper.iml" filepath="$PROJECT_DIR$/ak-universal-helper/akuniversalhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

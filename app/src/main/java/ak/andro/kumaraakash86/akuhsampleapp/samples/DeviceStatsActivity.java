@@ -40,11 +40,14 @@ public class DeviceStatsActivity extends AppCompatActivity {
             case "fcam":
                 CheckIfFrontCameraAvailable();
                 break;
+            case "flash":
+                CheckIfFlashAvailable();
+                break;
         }
     }
 
     private void CheckNetworkStatus() {
-        Toast.makeText(mContext, "Network "+(AKDeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabeled" : "Disabled"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Network "+(AKDeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabled" : "Disabled"), Toast.LENGTH_LONG).show();
     }
     private void CheckIfGPSAvailable() {
 
@@ -55,6 +58,9 @@ public class DeviceStatsActivity extends AppCompatActivity {
     }
     private void CheckIfFrontCameraAvailable() {
         Toast.makeText(mContext, "Front Camera "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+    }
+    private void CheckIfFlashAvailable() {
+        Toast.makeText(mContext, "Flash "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
     }
 
 }

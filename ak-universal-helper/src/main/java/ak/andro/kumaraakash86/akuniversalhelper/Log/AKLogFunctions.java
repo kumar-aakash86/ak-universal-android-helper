@@ -59,7 +59,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -67,7 +67,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -75,7 +75,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -83,7 +83,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -91,7 +91,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+" ("+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 //	LOG MESSAGES

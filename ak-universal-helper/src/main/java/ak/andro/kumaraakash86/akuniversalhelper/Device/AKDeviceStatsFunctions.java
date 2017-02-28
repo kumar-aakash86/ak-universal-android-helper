@@ -55,10 +55,21 @@ public class AKDeviceStatsFunctions {
         }
         catch (Exception e)
         {
-            AKLogFunctions.ErrorMessage(_context.getClass(), "IsFrontCameraAvailable Error", e);
+            AKLogFunctions.ErrorMessage(_context.getClass(), "IsFrontCameraAvailable Ex", e);
             return false;
         }
     }
 
-
+    public static boolean IsFlashAvailable(Context _context)
+    {
+        try{
+            PackageManager pm = _context.getPackageManager();
+            return pm.hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+        }
+        catch(Exception e)
+        {
+            AKLogFunctions.ErrorMessage(_context.getClass(), "IsFlashAvailable Ex", e);
+            return false;
+        }
+    }
 }

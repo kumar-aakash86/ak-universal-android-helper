@@ -27,6 +27,12 @@ Custom snackbars
 [**Actions & Events**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)    
 Custom snackbars
 
+[**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts)
+Custom fonts on textview, edittext & buttons
+
+[**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)
+Date formatting
+
 **Usage**    
 Add this in your application's build.gradle
     
@@ -41,8 +47,12 @@ Setup AKUniversalHelper with following code in application file.
 
 You are ready to go.    
 See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
-    
-    
+
+
+**Version: 0.13**
+* Custom font helper added
+* Date helper added
+
 **Version: 0.12**    
 * Shake Detection    
     

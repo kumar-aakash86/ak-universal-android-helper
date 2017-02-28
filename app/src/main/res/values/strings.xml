@@ -13,6 +13,7 @@
     <string name="btn_check_gps">Check GPS Module</string>
     <string name="btn_check_gyro">Check Gyro Scope</string>
     <string name="btn_check_front_cam">Check Front Camera</string>
+    <string name="btn_check_flash">Check Flash</string>
 
     <string name="btn_alerts">Alerts</string>
     <string name="btn_snackbars">Snackbars</string>

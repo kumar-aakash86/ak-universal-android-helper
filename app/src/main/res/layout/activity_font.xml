@@ -62,4 +62,49 @@
         android:layout_height="wrap_content"
         android:text="Roboto Bold"
         android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#2d2d2d"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv_multi_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Line"
+            android:textSize="18sp"
+            android:background="#dcdcdc"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv_multi_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Font Setup"
+            android:textSize="18sp"
+            android:background="#a9a9a9"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv_multi_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For All"
+            android:background="#dcdcdc"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/tv_multi_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="These"
+            android:textSize="18sp"
+            android:background="#a9a9a9"
+            android:padding="10dp"/>
+    </LinearLayout>
 </LinearLayout>
