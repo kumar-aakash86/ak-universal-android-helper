@@ -15,9 +15,9 @@ import ak.andro.kumaraakash86.akuniversalhelper.Log.AKLogFunctions;
  */
 public class AKTextUtilities {
 
-    public static void setTypeFace(Context _context, View _parentView, String _fontName, int _id)
+    public static void setTypeFace(Activity _activity, View _parentView, String _fontName, int _id)
     {
-        Typeface tf = Typeface.createFromAsset(_context.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
 
         View _view = _parentView.findViewById(_id);
         if(_view instanceof TextView)
@@ -36,15 +36,15 @@ public class AKTextUtilities {
             btn.setTypeface(tf);
         }
         else{
-            AKLogFunctions.ErrorMessage(_context.getClass(), "setTypeface Error", "View is not a text container");
+            AKLogFunctions.ErrorMessage(_activity.getClass(), "setTypeface Error", "View is not a text container");
         }
     }
 
-    public static void setTypeFace(Activity _context, String _fontName, int _id)
+    public static void setTypeFace(Activity _activity, String _fontName, int _id)
     {
-        Typeface tf = Typeface.createFromAsset(_context.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
 
-        View _view = _context.findViewById(_id);
+        View _view = _activity.findViewById(_id);
         if(_view instanceof TextView)
         {
             TextView tv = (TextView) _view;
@@ -61,14 +61,14 @@ public class AKTextUtilities {
             btn.setTypeface(tf);
         }
         else{
-            AKLogFunctions.ErrorMessage(_context.getClass(), "setTypeface Error", "View "+_id+" is not a text container");
+            AKLogFunctions.ErrorMessage(_activity.getClass(), "setTypeface Error", "View "+_id+" is not a text container");
         }
     }
 
 
-    public static void setTypeFace(Context _context, String _fontName, View _view)
+    public static void setTypeFace(Activity _activity, String _fontName, View _view)
     {
-        Typeface tf = Typeface.createFromAsset(_context.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
 
         if(_view instanceof TextView)
         {
@@ -86,25 +86,25 @@ public class AKTextUtilities {
             btn.setTypeface(tf);
         }
         else{
-            AKLogFunctions.ErrorMessage(_context.getClass(), "setTypeface Error", "View "+_view+" is not a text container");
+            AKLogFunctions.ErrorMessage(_activity.getClass(), "setTypeface Error", "View "+_view+" is not a text container");
         }
     }
 
-    public static void setTypeFace(Activity _context, String _fontName, int... _id)
+    public static void setTypeFace(Activity _activity, String _fontName, int... _id)
     {
-        Typeface tf = Typeface.createFromAsset(_context.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
 
         for (int id: _id) {
-            setTypeFace(_context, _fontName, id);
+            setTypeFace(_activity, _fontName, id);
         }
     }
 
-    public static void setTypeFace(Activity _context, String _fontName, View... _view)
+    public static void setTypeFace(Activity _activity, String _fontName, View... _view)
     {
-        Typeface tf = Typeface.createFromAsset(_context.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
 
         for (View view: _view) {
-            setTypeFace(_context, _fontName, view);
+            setTypeFace(_activity, _fontName, view);
         }
     }
 }
