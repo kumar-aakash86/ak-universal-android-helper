@@ -36,7 +36,7 @@ Date formatting
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:0.12'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:0.14'
 
 
 **Setup**    
@@ -48,6 +48,9 @@ Setup AKUniversalHelper with following code in application file.
 You are ready to go.    
 See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
 
+
+**Version: 0.14**
+* Custom font helper updated
 
 **Version: 0.13**
 * Custom font helper added
