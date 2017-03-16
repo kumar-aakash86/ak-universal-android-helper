@@ -29,10 +29,10 @@ Custom snackbars
 [**Actions & Events**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)    
 Custom snackbars
 
-[**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts)
+[**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts)    
 Custom fonts on textview, edittext & buttons
 
-[**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)
+[**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)    
 Date formatting
 
 [**Text Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Text-Utilities)    
