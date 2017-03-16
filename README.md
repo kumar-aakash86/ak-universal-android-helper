@@ -1,7 +1,7 @@
 # ak-universal-android-helper
 A helper library to ease the most repetitive codes with simple reusable attributes.
 
-![https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/example-screen.gif](https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/example-screen.gif)
+![https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/demo.gif](https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/demo.gif)
 
 AKUAH can help you with many repetitive tasks of daily life development.
 
