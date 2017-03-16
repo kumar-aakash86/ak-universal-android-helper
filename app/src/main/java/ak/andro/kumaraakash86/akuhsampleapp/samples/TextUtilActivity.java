@@ -22,7 +22,8 @@ public class TextUtilActivity extends AppCompatActivity {
     }
 
     private void SetTextUnderline() {
-        AKTextUtilities.TextStyler textStyler = new AKTextUtilities.TextStyler().Init(getString(R.string.msg_long_text));
+        AKTextUtilities.TextStyler textStyler = new AKTextUtilities.TextStyler();
+        textStyler.Init(getString(R.string.msg_long_text));
         textStyler.setOverlookItems(new String[]{","});
         textStyler.doMatchExactly(false);
         textStyler.setUnderline("underline");
@@ -34,8 +35,8 @@ public class TextUtilActivity extends AppCompatActivity {
         textStyler.setSubscript("subscript");
         textStyler.setColor(Color.RED, "foreground-color");
         textStyler.setBGColor(Color.GREEN, "background-color");
-        textStyler.setLinkUnderline(true);
-        textStyler.setLinkColor(Color.argb(255, 200,70,200));
+        //textStyler.setLinkUnderline(false);                        // UNCOMMENT TO DISABLE LINK UNDERLINE
+        //textStyler.setLinkColor(Color.argb(255, 200,70,200));      // UNCOMMENT TO SET LINK COLOR
 
         textStyler.setClickListener(new TextClicker() {
             @Override

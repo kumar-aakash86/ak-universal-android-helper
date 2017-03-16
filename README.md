@@ -1,6 +1,8 @@
 # ak-universal-android-helper
 A helper library to ease the most repetitive codes with simple reusable attributes.
 
+![https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/example-screen.gif](https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/example-screen.gif)
+
 AKUAH can help you with many repetitive tasks of daily life development.
 
 I am using this library in my own projects from quit a time. Now I decided to share in for public use. 
@@ -32,6 +34,10 @@ Custom fonts on textview, edittext & buttons
 
 [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)
 Date formatting
+
+[**Text Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Text-Utilities)
+Advance text styling
+Text click in multiline TextView.
 
 **Usage**    
 Add this in your application's build.gradle
