@@ -27,7 +27,7 @@ AKUAH helps you to identity device specific info & device other status like Netw
 Custom snackbars
 
 [**Actions & Events**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Alerts-&-Notifications)    
-Custom snackbars
+Capture shake event
 
 [**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts)    
 Custom fonts on textview, edittext & buttons
