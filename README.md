@@ -35,8 +35,8 @@ Custom fonts on textview, edittext & buttons
 [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)
 Date formatting
 
-[**Text Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Text-Utilities)
-Advance text styling
+[**Text Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Text-Utilities)    
+Advance text styling    
 Text click in multiline TextView.
 
 **Usage**    
