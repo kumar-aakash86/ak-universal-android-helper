@@ -3,6 +3,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_log_message"
+        android:gravity="center"
+        android:padding="10dp"/>
     <Button
         android:id="@+id/btn_log_error_exception"
         android:layout_width="match_parent"

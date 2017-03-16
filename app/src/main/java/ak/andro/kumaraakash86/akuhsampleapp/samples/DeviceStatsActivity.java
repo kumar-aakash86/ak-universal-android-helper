@@ -47,20 +47,20 @@ public class DeviceStatsActivity extends AppCompatActivity {
     }
 
     private void CheckNetworkStatus() {
-        Toast.makeText(mContext, "Network "+(AKDeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabled" : "Disabled"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Network "+(AKDeviceStatsFunctions.IsNetworkAvailable(mContext) ? "Enabled" : "Disabled"), Toast.LENGTH_SHORT).show();
     }
     private void CheckIfGPSAvailable() {
 
-        Toast.makeText(mContext, "GPS "+(AKDeviceStatsFunctions.IsGPSModuleAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "GPS "+(AKDeviceStatsFunctions.IsGPSModuleAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_SHORT).show();
     }
     private void CheckIfGyroscopeAvailable() {
-        Toast.makeText(mContext, "GyroScope "+(AKDeviceStatsFunctions.IsGyroscopeAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "GyroScope "+(AKDeviceStatsFunctions.IsGyroscopeAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_SHORT).show();
     }
     private void CheckIfFrontCameraAvailable() {
-        Toast.makeText(mContext, "Front Camera "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Front Camera "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_SHORT).show();
     }
     private void CheckIfFlashAvailable() {
-        Toast.makeText(mContext, "Flash "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_LONG).show();
+        Toast.makeText(mContext, "Flash "+(AKDeviceStatsFunctions.IsFrontCameraAvailable(mContext) ? "Available" : "Not Available"), Toast.LENGTH_SHORT).show();
     }
 
 }

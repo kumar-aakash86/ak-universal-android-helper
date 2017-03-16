@@ -23,6 +23,7 @@
     <string name="btn_info_snackbar">Info Style</string>
     <string name="btn_custom_snackbar">Custom Style</string>
     <string name="btn_fonts">Set Fonts</string>
+    <string name="btn_texts">Text Utilities</string>
     <string name="btn_date_formats">Date Formats</string>
     <string name="btn_action_events">Action &amp; Events</string>
 
@@ -30,7 +31,21 @@
     <string name="lbl_green">GREEN</string>
     <string name="lbl_blue">BLUE</string>
     <string name="lbl_alpha">ALPHA</string>
+    <string name="lbl_log_message">Open logcat to view log</string>
+    <string name="lbl_font_osl">Open Sans Light</string>
+    <string name="lbl_font_osr">Open Sans Regular</string>
+    <string name="lbl_font_osb">Open Sans Bold</string>
+    <string name="lbl_font_rl">Roboto Light</string>
+    <string name="lbl_font_rr">Roboto Regular</string>
+    <string name="lbl_font_rb">Roboto Bold</string>
+    <string name="lbl_line_1">Single Line</string>
+    <string name="lbl_line_2">Font Setup</string>
+    <string name="lbl_line_3">For All</string>
+    <string name="lbl_line_4">These</string>
 
+    <string name="msg_font_by_id">FONTS SET DIRECTLY BY VIEW ID</string>
+    <string name="msg_font_by_view">FONTS SET BY VIEW OBJECTS</string>
+    <string name="msg_long_text">Here is the long text to display the customised text styling. With AKUAH you can style your textview with underline, bold, italic, resize, strikethrough, superscript, subscript, foreground-color and background-color. \n\nIn addition you can also implement click event on your textview.</string>
 
     <string name="btn_action_shake">Shake Action</string>
 </resources>

@@ -40,8 +40,8 @@ public class FontActivity extends AppCompatActivity {
         TextView tv_roboto_light = (TextView) findViewById(R.id.tv_roboto_light);
         TextView tv_roboto_regular = (TextView) findViewById(R.id.tv_roboto_regular);
         TextView tv_roboto_bold = (TextView) findViewById(R.id.tv_roboto_bold);
-        AKTextUtilities.setTypeFace(mContext, "fonts/OpenSans-Light.ttf", tv_roboto_light);
-        AKTextUtilities.setTypeFace(mContext, "fonts/OpenSans-Regular.ttf", tv_roboto_regular);
-        AKTextUtilities.setTypeFace(mContext, "fonts/OpenSans-Bold.ttf", tv_roboto_bold);
+        AKTextUtilities.setTypeFace(mActivity, "fonts/OpenSans-Light.ttf", tv_roboto_light);
+        AKTextUtilities.setTypeFace(mActivity, "fonts/OpenSans-Regular.ttf", tv_roboto_regular);
+        AKTextUtilities.setTypeFace(mActivity, "fonts/OpenSans-Bold.ttf", tv_roboto_bold);
     }
 }

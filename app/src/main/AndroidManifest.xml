@@ -3,7 +3,10 @@
     package="ak.andro.kumaraakash86.akuhsampleapp">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -35,7 +38,8 @@
         <activity android:name=".samples.FontActivity" />
         <activity android:name=".samples.DateActivity" />
         <activity android:name=".samples.ActionEventActivity" />
-        <activity android:name=".samples.child.ShakeActivity"></activity>
+        <activity android:name=".samples.child.ShakeActivity" />
+        <activity android:name=".samples.TextUtilActivity"></activity>
     </application>
 
 </manifest>

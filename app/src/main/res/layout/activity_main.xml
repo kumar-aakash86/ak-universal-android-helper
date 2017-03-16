@@ -36,6 +36,12 @@
         android:text="@string/btn_fonts"
         android:onClick="ActionClick"/>
     <Button
+        android:id="@+id/btn_texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_texts"
+        android:onClick="ActionClick"/>
+    <Button
         android:id="@+id/btn_dates"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

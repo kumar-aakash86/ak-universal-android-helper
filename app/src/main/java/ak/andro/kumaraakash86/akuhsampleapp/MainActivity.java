@@ -12,6 +12,7 @@ import ak.andro.kumaraakash86.akuhsampleapp.samples.DateActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DeviceStatsActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.FontActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.LogMessagesActivity;
+import ak.andro.kumaraakash86.akuhsampleapp.samples.TextUtilActivity;
 import ak.andro.kumaraakash86.akuniversalhelper.core.AKUniversalConfiguration;
 import ak.andro.kumaraakash86.akuniversalhelper.core.AKUniversalHelper;
 
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_fonts:
                 startActivity(new Intent(mContext, FontActivity.class));
+                break;
+            case R.id.btn_texts:
+                startActivity(new Intent(mContext, TextUtilActivity.class));
                 break;
             case R.id.btn_dates:
                 startActivity(new Intent(mContext, DateActivity.class));
