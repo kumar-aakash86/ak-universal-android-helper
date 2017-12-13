@@ -42,7 +42,7 @@ Text click in multiline TextView.
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:0.15'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.1.0'
 
 
 **Setup**    
@@ -53,6 +53,10 @@ Setup AKUniversalHelper with following code in application file.
 
 You are ready to go.    
 See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
+
+**Version: 1.1.0**
+* Added setting to save all logs
+* Option to send logs with mail
 
 **Version: 0.15**
 * Text Style customizer added (Supports underline, bold, italic, subscript, superscript, relative resize, foreground color, background color & strikethrough)
