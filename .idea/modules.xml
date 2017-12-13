@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AKUHSampleApp.iml" filepath="$PROJECT_DIR$/AKUHSampleApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ak-universal-android-helper.iml" filepath="$PROJECT_DIR$/ak-universal-android-helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/ak-universal-helper/ak-universal-helper.iml" filepath="$PROJECT_DIR$/ak-universal-helper/ak-universal-helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

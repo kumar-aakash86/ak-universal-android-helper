@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
 
         AKUniversalConfiguration.Builder config = new AKUniversalConfiguration.Builder(mContext);
-        config.EnagleLogMessages(true);
+        config.EnableLogMessages(true);
+        config.SaveLogMessages(false);
         AKUniversalHelper.getInstance().init(config.build());
     }
 

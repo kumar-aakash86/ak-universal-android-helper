@@ -1,5 +1,7 @@
 package ak.andro.kumaraakash86.akuniversalhelper.core;
 
+import android.content.Context;
+
 /**
  * Created by AAKASH on 12-11-2016.
  */
@@ -10,6 +12,7 @@ public class AKUniversalHelper {
     private static final String ERROR_INIT_CONFIG_WITH_NULL = "AKUniversalHelper configuration can not be initialized with null";
     private static final String ERROR_NOT_INIT = "AKUniversalHelper must be init with configuration before using";
 
+    //  GET HELPER CONFIGURATION INSTANCE
     public static AKUniversalHelper getInstance()
     {
         if(instance == null)
@@ -36,9 +39,22 @@ public class AKUniversalHelper {
 //        }
     }
 
+    //  CHECK IF LOGGING IS ENABLE
     public boolean isLoggingEnabled(){
         checkConfiguration();
         return configuration.enableLogging;
+    }
+
+    //  CHECK IF SAVE LOG IS ENABLE
+    public boolean isSavingEnabled(){
+        checkConfiguration();
+        return configuration.enableSaveLogging;
+    }
+
+    //  CHECK IF SAVE LOG IS ENABLE
+    public Context getContext(){
+        checkConfiguration();
+        return configuration.globalContext;
     }
 
     /**

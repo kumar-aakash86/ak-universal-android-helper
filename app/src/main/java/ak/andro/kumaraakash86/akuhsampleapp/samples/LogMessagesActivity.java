@@ -1,9 +1,16 @@
 package ak.andro.kumaraakash86.akuhsampleapp.samples;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import org.json.JSONException;
 
@@ -90,6 +97,62 @@ public class LogMessagesActivity extends AppCompatActivity {
                     AKLogFunctions.VerboseMessage(getClass(), null, e);
                     break;
             }
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.log_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.action_send_mail)
+        {
+            SendMail();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void SendMail() {
+        String  details =  "VERSION.RELEASE : "+ Build.VERSION.RELEASE
+                +"\nVERSION.INCREMENTAL : "+Build.VERSION.INCREMENTAL
+                +"\nVERSION.SDK.NUMBER : "+Build.VERSION.SDK_INT
+                +"\nBOARD : "+Build.BOARD
+                +"\nBOOTLOADER : "+Build.BOOTLOADER
+                +"\nBRAND : "+Build.BRAND
+                +"\nCPU_ABI : "+Build.CPU_ABI
+                +"\nCPU_ABI2 : "+Build.CPU_ABI2
+                +"\nDISPLAY : "+Build.DISPLAY
+                +"\nFINGERPRINT : "+Build.FINGERPRINT
+                +"\nHARDWARE : "+Build.HARDWARE
+                +"\nHOST : "+Build.HOST
+                +"\nID : "+Build.ID
+                +"\nMANUFACTURER : "+Build.MANUFACTURER
+                +"\nMODEL : "+Build.MODEL
+                +"\nPRODUCT : "+Build.PRODUCT
+                +"\nSERIAL : "+Build.SERIAL
+                +"\nTAGS : "+Build.TAGS
+                +"\nTIME : "+Build.TIME
+                +"\nTYPE : "+Build.TYPE
+                +"\nUNKNOWN : "+Build.UNKNOWN
+                +"\nUSER : "+Build.USER;
+
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+        emailIntent.putExtra(Intent.EXTRA_EMAIL  , new String[]{"aakash.kumar@rsystems.com"});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Test Log Sender");
+        emailIntent.putExtra(Intent.EXTRA_TEXT   , details);
+        AKLogFunctions.AttachLogFile(mContext, emailIntent);
+//        AK.getLogFileURI(mContext, emailIntent);
+        try {
+            startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+//            finish();
+            Log.i("Finished sending email", "");
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(mContext, "There is no email client installed.", Toast.LENGTH_SHORT).show();
         }
     }
 }

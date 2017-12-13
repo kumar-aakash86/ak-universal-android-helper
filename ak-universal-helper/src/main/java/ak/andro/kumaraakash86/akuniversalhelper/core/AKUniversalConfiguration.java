@@ -9,17 +9,24 @@ public final class AKUniversalConfiguration {
 
 
     final boolean enableLogging;
+    final boolean enableSaveLogging;
+    final Context globalContext;
 
+    //  SETTING GLOBAL CONFIGURATION FOR LIBRARY
     public AKUniversalConfiguration(final Builder builder)
     {
         enableLogging = builder.enableLogging;
+        enableSaveLogging = builder.enableSaveLogging;
+        globalContext = builder.context;
     }
+
     public static AKUniversalConfiguration createDefault(Context context) {
         return new Builder(context).build();
     }
 
     public static class Builder{
         private boolean enableLogging = true;
+        private boolean enableSaveLogging = false;
 
         private Context context;
         public Builder(Context ctx)
@@ -27,9 +34,17 @@ public final class AKUniversalConfiguration {
             this.context = ctx.getApplicationContext();
         }
 
-        public Builder EnagleLogMessages(boolean logging)
+        //  ENABLE/DISABLE LOG MESSAGING
+        public Builder EnableLogMessages(boolean logging)
         {
             this.enableLogging = logging;
+            return this;
+        }
+
+        //  ENABLE/DISABLE SAVING LOG IN FILE
+        public Builder SaveLogMessages(boolean logging)
+        {
+            this.enableSaveLogging = logging;
             return this;
         }
 
