@@ -54,6 +54,9 @@ Setup AKUniversalHelper with following code in application file.
 You are ready to go.    
 See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
 
+**Version: 1.1.1**
+* Custom shake threshold option in shakelistener
+
 **Version: 1.1.0**
 * Added setting to save all logs
 * Option to send logs with mail
