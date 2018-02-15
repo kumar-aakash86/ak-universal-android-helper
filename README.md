@@ -42,7 +42,7 @@ Text click in multiline TextView.
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.1.1'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.1.0'
 
 
 **Setup**    
