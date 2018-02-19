@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ak.andro.app.akuhsampleapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ak.andro.kumaraakash86.akuhsampleapp.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.LogMessagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.DeviceStatsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.AlertsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.child.SnackbarsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.FontActivity" />
+        <activity android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.DateActivity" />
+        <activity android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.ActionEventActivity" />
+        <activity android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.child.ShakeActivity" />
+        <activity android:name="ak.andro.kumaraakash86.akuhsampleapp.samples.TextUtilActivity" />
+    </application>
+
+</manifest>
