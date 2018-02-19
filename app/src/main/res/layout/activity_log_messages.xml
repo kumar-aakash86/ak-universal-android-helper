@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_log_message"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btn_log_error_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="e"
+        android:text="@string/btn_log_error"
+        />
+
+    <Button
+        android:id="@+id/btn_log_debug_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="d"
+        android:text="@string/btn_log_debug"
+        />
+
+    <Button
+        android:id="@+id/btn_log_info_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="i"
+        android:text="@string/btn_log_info"
+        />
+
+    <Button
+        android:id="@+id/btn_log_verbose_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="v"
+        android:text="@string/btn_log_verbose"
+        />
+
+    <Button
+        android:id="@+id/btn_log_warn_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="w"
+        android:text="@string/btn_log_warn"
+        />
+
+</LinearLayout>
