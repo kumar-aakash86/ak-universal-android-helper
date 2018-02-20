@@ -1,9 +1,13 @@
 package ak.andro.kumaraakash86.akuniversalhelper.Utilities;
 
 import android.content.Context;
+import android.support.annotation.IntDef;
+import android.support.annotation.StringDef;
 import android.text.format.DateUtils;
 import android.util.Log;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -13,6 +17,12 @@ import java.util.Date;
  * Created by AAKASH on 08-12-2016.
  */
 public class AKDateUtilities {
+
+
+    public static final int SECONDS_IN_MILLIS = 1000;
+    public static final int MINUTES_IN_MILLIES = SECONDS_IN_MILLIS * 60;
+    public static final int HOURS_IN_MILLIES = MINUTES_IN_MILLIES * 60;
+    public static final int DAYS_IN_MILLIES = HOURS_IN_MILLIES * 24;
 
     /***
      * CONVERT DATE IN STRING TO DESIRED FORMAT
@@ -104,11 +114,36 @@ public class AKDateUtilities {
         }
         return "";
     }
+
+    /**
+     * GET DATE FROM MILLIES
+     * @param milliSeconds
+     * @param dateFormat
+     * @return
+     */
     public static String getDateFromMillies(long milliSeconds, String dateFormat)
     {
         SimpleDateFormat formatter = new SimpleDateFormat(dateFormat);
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(milliSeconds);
         return formatter.format(calendar.getTime());
+    }
+
+    public static long[] getDateDifferences(Date startDate, Date endDate){
+        if(endDate.before(startDate))
+            return null;
+        else
+            return getDateDifferences(startDate.getTime(), endDate.getTime());
+    }
+
+    public static long[] getDateDifferences(long startMillies, long endMillies){
+        long difference = endMillies - startMillies;
+
+        long secondsInMilli = 1000;
+        long minutesInMilli = secondsInMilli * 60;
+        long hoursInMilli = minutesInMilli * 60;
+        long daysInMilli = hoursInMilli * 24;
+
+        return new long[] {(difference / daysInMilli), (difference / hoursInMilli), (difference / minutesInMilli), (difference / secondsInMilli), difference};
     }
 }

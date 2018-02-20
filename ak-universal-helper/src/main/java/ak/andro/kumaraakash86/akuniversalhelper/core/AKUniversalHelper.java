@@ -51,6 +51,12 @@ public class AKUniversalHelper {
         return configuration.enableSaveLogging;
     }
 
+    //  CHECK IF FONT DIRECTORY PATH DEFINED
+    public String getFontDirectory(){
+        checkConfiguration();
+        return configuration.fontDirectory;
+    }
+
     //  CHECK IF SAVE LOG IS ENABLE
     public Context getContext(){
         checkConfiguration();

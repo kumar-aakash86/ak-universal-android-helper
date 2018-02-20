@@ -27,6 +27,8 @@ import android.widget.TextView;
 
 import ak.andro.kumaraakash86.akuniversalhelper.Listeners.click.TextClicker;
 import ak.andro.kumaraakash86.akuniversalhelper.Log.AKLogFunctions;
+import ak.andro.kumaraakash86.akuniversalhelper.core.AKUniversalConfiguration;
+import ak.andro.kumaraakash86.akuniversalhelper.core.AKUniversalHelper;
 
 /**
  * Created by AAKASH on 28-10-2016.
@@ -35,7 +37,7 @@ public class AKTextUtilities {
 
     public static void setTypeFace(Activity _activity, View _parentView, String _fontName, int _id)
     {
-        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), AKUniversalHelper.getInstance().getFontDirectory()+_fontName);
 
         View _view = _parentView.findViewById(_id);
         if(_view instanceof EditText)
@@ -60,7 +62,7 @@ public class AKTextUtilities {
 
     public static void setTypeFace(Activity _activity, String _fontName, int _id)
     {
-        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), AKUniversalHelper.getInstance().getFontDirectory()+_fontName);
 
         View _view = _activity.findViewById(_id);
         if(_view instanceof EditText)
@@ -86,7 +88,7 @@ public class AKTextUtilities {
 
     public static void setTypeFace(Activity _activity, String _fontName, View _view)
     {
-        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), AKUniversalHelper.getInstance().getFontDirectory()+_fontName);
 
         if(_view instanceof EditText)
         {
@@ -110,7 +112,7 @@ public class AKTextUtilities {
 
     public static void setTypeFace(Activity _activity, String _fontName, int... _id)
     {
-        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), AKUniversalHelper.getInstance().getFontDirectory()+_fontName);
 
         for (int id: _id) {
             setTypeFace(_activity, _fontName, id);
@@ -119,13 +121,12 @@ public class AKTextUtilities {
 
     public static void setTypeFace(Activity _activity, String _fontName, View... _view)
     {
-        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), _fontName);
+        Typeface tf = Typeface.createFromAsset(_activity.getAssets(), AKUniversalHelper.getInstance().getFontDirectory()+_fontName);
 
         for (View view: _view) {
             setTypeFace(_activity, _fontName, view);
         }
     }
-
 
 
 

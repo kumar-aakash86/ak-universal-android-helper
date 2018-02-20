@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
         mContext = this;
 
-        AKUniversalConfiguration.Builder config = new AKUniversalConfiguration.Builder(mContext);
-        config.EnableLogMessages(true);
-        config.SaveLogMessages(false);
+        AKUniversalConfiguration.Builder config = new AKUniversalConfiguration.Builder(mContext)
+                .EnableLogMessages(true)
+                .SaveLogMessages(false)
+                .SetFontPath("fonts/");
         AKUniversalHelper.getInstance().init(config.build());
     }
 

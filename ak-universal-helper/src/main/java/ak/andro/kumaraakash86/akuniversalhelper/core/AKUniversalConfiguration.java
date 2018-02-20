@@ -10,6 +10,7 @@ public final class AKUniversalConfiguration {
 
     final boolean enableLogging;
     final boolean enableSaveLogging;
+    final String fontDirectory;
     final Context globalContext;
 
     //  SETTING GLOBAL CONFIGURATION FOR LIBRARY
@@ -17,6 +18,7 @@ public final class AKUniversalConfiguration {
     {
         enableLogging = builder.enableLogging;
         enableSaveLogging = builder.enableSaveLogging;
+        fontDirectory = builder.fontDirectory;
         globalContext = builder.context;
     }
 
@@ -27,6 +29,7 @@ public final class AKUniversalConfiguration {
     public static class Builder{
         private boolean enableLogging = true;
         private boolean enableSaveLogging = false;
+        private String fontDirectory = "";
 
         private Context context;
         public Builder(Context ctx)
@@ -45,6 +48,15 @@ public final class AKUniversalConfiguration {
         public Builder SaveLogMessages(boolean logging)
         {
             this.enableSaveLogging = logging;
+            return this;
+        }
+
+        public Builder SetFontPath(String path){
+            if(path.endsWith("\\"))
+                throw new RuntimeException("Assets path can only accept forward slashes ( / ).");
+
+            path = (path.endsWith("/") ? path : path+"/" );
+            this.fontDirectory = path;
             return this;
         }
 

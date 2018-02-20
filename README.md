@@ -33,7 +33,7 @@ Capture shake event
 Custom fonts on textview, edittext & buttons
 
 [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats)    
-Date formatting
+Date formatting & Comparision
 
 [**Text Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Text-Utilities)    
 Advance text styling    
@@ -42,7 +42,7 @@ Text click in multiline TextView.
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.1.1'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.1.2'
 
 
 **Setup**    
@@ -52,7 +52,11 @@ Setup AKUniversalHelper with following code in application file.
         AKUniversalHelper.getInstance().init(config.build());
 
 You are ready to go.    
-See [wiki](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
+See [**wiki**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
+
+**Version: 1.1.2**
+* "getDateDifferences" method added to compare two dates (see wiki for [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats))
+* Option in library setup to define font directory path (see wiki for [**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts))
 
 **Version: 1.1.1**
 * Custom shake threshold option in shakelistener
