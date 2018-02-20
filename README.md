@@ -55,8 +55,8 @@ You are ready to go.
 See [**wiki**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
 
 **Version: 1.1.2**
-* "getDateDifferences" method added to compare two dates (see wiki for [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats))
-* Option in library setup to define font directory path (see wiki for [**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts))
+* "getDateDifferences" method added to get difference between two dates (see wiki for [**Date Formats**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Date-Formats))
+* Option in library setup to define font directory path globally (see wiki for [**Custom Fonts**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/Custom-Fonts))
 
 **Version: 1.1.1**
 * Custom shake threshold option in shakelistener
