@@ -18,6 +18,7 @@ build/android-profile/profile-2018-02-15-17-15-57-838.json
 
 # Built application files
 /*/build/
+build/
 
 local.properties
 

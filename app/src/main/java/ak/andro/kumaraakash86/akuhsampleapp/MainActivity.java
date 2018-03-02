@@ -8,6 +8,7 @@ import android.view.View;
 
 import ak.andro.kumaraakash86.akuhsampleapp.samples.ActionEventActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.AlertsActivity;
+import ak.andro.kumaraakash86.akuhsampleapp.samples.AppUtilsActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DateActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.DeviceStatsActivity;
 import ak.andro.kumaraakash86.akuhsampleapp.samples.FontActivity;
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         AKUniversalConfiguration.Builder config = new AKUniversalConfiguration.Builder(mContext)
                 .EnableLogMessages(true)
                 .SaveLogMessages(false)
-                .SetFontPath("fonts/");
+                .SetFontPath("fonts");
         AKUniversalHelper.getInstance().init(config.build());
     }
 
@@ -56,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_action_events:
                 startActivity(new Intent(mContext, ActionEventActivity.class));
+                break;
+            case R.id.btn_action_app_utilities:
+                startActivity(new Intent(mContext, AppUtilsActivity.class));
                 break;
         }
     }
