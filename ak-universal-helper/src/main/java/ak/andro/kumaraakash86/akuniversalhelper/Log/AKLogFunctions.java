@@ -14,14 +14,12 @@ import ak.andro.kumaraakash86.akuniversalhelper.core.AKUniversalHelper;
 public class AKLogFunctions {
 
 
-//	LOG MESSAGES
-
+    //	LOG MESSAGES WITH CLASS, SECTION AND STRING MESSAGE
     public static void ErrorMessage(Class cls, @Nullable String section, String msg)
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
-            LogInFile(cls, "Error", cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            ErrorMessage("Error",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -29,8 +27,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
-            LogInFile(cls, "Debug", cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            DebugMessage("Debug",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -38,8 +35,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
-            LogInFile(cls, "Info", cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            InfoMessage("Info",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -47,8 +43,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
-            LogInFile(cls, "Verbose", cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            VerboseMessage("Verbose",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
@@ -56,19 +51,18 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
-            LogInFile(cls, "Warn", cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
+            WarnMessage("Warn",cls.getName()+((section == null) ? "" : " "+section)+":"+((msg == null) ? "null" : msg));
         }
     }
 
 
 
+    //	LOG MESSAGES WITH CLASS, SECTION AND EXCEPTION
     public static void ErrorMessage(Class cls, @Nullable String section, Exception e)
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.e("Error",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
-            LogInFile(cls, "Error", cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            ErrorMessage("Error",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -76,8 +70,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.d("Debug",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
-            LogInFile(cls, "Debug", cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            DebugMessage("Debug",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -85,8 +78,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.i("Info",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
-            LogInFile(cls, "Info", cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            InfoMessage("Info",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -94,8 +86,7 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.v("Verbose",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
-            LogInFile(cls, "Verbose", cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            VerboseMessage("Verbose",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
 
@@ -103,15 +94,45 @@ public class AKLogFunctions {
     {
         if(cls != null && AKUniversalHelper.getInstance().isLoggingEnabled())
         {
-            Log.w("Warn",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
-            LogInFile(cls, "Warn", cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
+            WarnMessage("Warn",cls.getName()+((section == null) ? "" : " "+section)+" (Line :"+e.getStackTrace()[0].getLineNumber()+")"+":"+ e.toString());
         }
     }
-//	LOG MESSAGES
+
+
+    //	LOG MESSAGES WITH TAG, SECTION AND STRING MESSAGE
+    public static void ErrorMessage(String tag, String msg)
+    {
+        Log.e("Error",tag+":"+msg);
+        LogInFile("Error", tag+":"+msg);
+    }
+
+    public static void DebugMessage(String tag, String msg)
+    {
+        Log.d("Debug",tag+":"+msg);
+        LogInFile("Debug",tag+":"+msg);
+    }
+
+    public static void InfoMessage(String tag, String msg)
+    {
+        Log.i("Info",tag+":"+msg);
+        LogInFile("Info",tag+":"+msg);
+    }
+
+    public static void VerboseMessage(String tag, String msg)
+    {
+        Log.i("Verbose",tag+":"+msg);
+        LogInFile("Verbose",tag+":"+msg);
+    }
+
+    public static void WarnMessage(String tag, String msg)
+    {
+        Log.i("Warn",tag+":"+msg);
+        LogInFile("Warn",tag+":"+msg);
+    }
 
 
     //SAVE LOGS IN FILE *START
-    private static void LogInFile(Class cls, @Nullable String section, String msg){
+    private static void LogInFile(@Nullable String section, String msg){
         if(AKUniversalHelper.getInstance().isSavingEnabled())
         {
             Logger.logToFile(AKUniversalHelper.getInstance().getContext(), section, msg);

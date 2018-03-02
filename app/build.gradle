@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "ak.andro.app.akuhsampleapp"
@@ -23,6 +23,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'junit:junit:4.12'
