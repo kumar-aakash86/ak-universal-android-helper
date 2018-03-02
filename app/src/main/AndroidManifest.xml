@@ -39,7 +39,9 @@
         <activity android:name=".samples.DateActivity" />
         <activity android:name=".samples.ActionEventActivity" />
         <activity android:name=".samples.child.ShakeActivity" />
-        <activity android:name=".samples.TextUtilActivity"></activity>
+        <activity android:name=".samples.TextUtilActivity" />
+        <activity android:name=".samples.AppUtilsActivity" />
+        <activity android:name=".samples.child.UpdateCheckerActivity"></activity>
     </application>
 
 </manifest>
