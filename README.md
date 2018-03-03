@@ -42,6 +42,7 @@ Text click in multiline TextView.
 
 [**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities)    
 Check for update on Google Play Store
+Ask for rating dialog
 
 **Usage**    
 Add this in your application's build.gradle
@@ -57,6 +58,9 @@ Setup AKUniversalHelper with following code in application file.
 
 You are ready to go.    
 See [**wiki**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
+
+**Version: 1.2.1**
+* Ask for rating dialog added (see wiki for [**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities#ask-for-rating))
 
 **Version: 1.2.0**
 * Added a simple play store app update checker (see wiki for [**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities#app-version-checker))

@@ -2,7 +2,7 @@
     <string name="app_name">AKUniversalHelper</string>
 
     <string name="rating_title">Do you like this app ?</string>
-    <string name="rating_message">Like to share a feedback to this app</string>
+    <string name="rating_message">Like to share a feedback on play store ?</string>
     <string name="rating_btn_accept">Yeah</string>
     <string name="rating_btn_cancel">Never</string>
     <string name="rating_btn_later">Later</string>
