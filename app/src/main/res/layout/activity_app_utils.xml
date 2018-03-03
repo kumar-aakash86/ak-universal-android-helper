@@ -11,4 +11,12 @@
         android:tag="update_checker"
         android:text="@string/btn_action_update_checker"
         />
+    <Button
+        android:id="@+id/btn_action_show_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ActionClick"
+        android:tag="update_checker"
+        android:text="@string/btn_action_rating"
+        />
 </LinearLayout>

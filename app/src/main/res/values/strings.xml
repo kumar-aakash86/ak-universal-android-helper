@@ -55,4 +55,13 @@
     <string name="hint_update_version">Enter app version</string>
     <string name="btn_check_for_update">Check for update</string>
     <string name="btn_check_app_update">Check this app update</string>
+
+    <string name="btn_action_rating">Show Rating Dialog</string>
+
+    <string name="rating_title">Like our app ?</string>
+    <string name="rating_message">Care for a feedback ?</string>
+    <string name="rating_btn_accept">Yeah Sure</string>
+    <string name="rating_btn_cancel">Never</string>
+    <string name="rating_btn_later">Not Now</string>
+    <integer name="rating_after_every">3</integer>
 </resources>
