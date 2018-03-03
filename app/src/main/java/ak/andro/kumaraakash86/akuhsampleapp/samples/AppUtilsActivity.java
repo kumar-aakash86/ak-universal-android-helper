@@ -33,8 +33,6 @@ public class AppUtilsActivity extends AppCompatActivity {
                 startActivity(new Intent(mContext, UpdateCheckerActivity.class));
                 break;
             case R.id.btn_action_show_rating:
-//                AKRatings.Builder ratingBuilder = new AKRatings.Builder(mContext);
-//                ratingBuilder.CheckForRating();
                 AKRatings.ShowRatingDialog(mContext);
                 Toast.makeText(mContext, "Checking to show rating", Toast.LENGTH_SHORT).show();
                 break;
