@@ -1,5 +1,5 @@
 # ak-universal-android-helper
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AK%20Universal%20Android%20Helper-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5420)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AK%20Universal%20Android%20Helper-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5420)    
 A helper library to ease the most repetitive codes with simple reusable attributes.
 
 ![https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/sample.gif](https://github.com/kumar-aakash86/ak-universal-android-helper/blob/master/screen/sample.gif)
