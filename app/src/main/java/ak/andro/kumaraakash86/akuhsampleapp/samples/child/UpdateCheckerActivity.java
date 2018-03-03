@@ -52,7 +52,6 @@ public class UpdateCheckerActivity extends AppCompatActivity {
         updateChecker.CheckForUpdate(new AKUpdateChecker.OnUpdateCallback() {
             @Override
             public void onUpdateFound(boolean foundUpdate) {
-                AKLogFunctions.ErrorMessage(getClass(), "update", ":"+foundUpdate);
                 Toast.makeText(mActivity, (foundUpdate ? "Update available" : "No update found"), Toast.LENGTH_SHORT).show();
             }
         });
@@ -65,7 +64,6 @@ public class UpdateCheckerActivity extends AppCompatActivity {
         updateChecker.CheckForUpdate(packageName, version, new AKUpdateChecker.OnUpdateCallback() {
             @Override
             public void onUpdateFound(boolean foundUpdate) {
-                AKLogFunctions.ErrorMessage(getClass(), "update", ":"+foundUpdate);
                 Toast.makeText(mActivity, (foundUpdate ? "Update available" : "No update found"), Toast.LENGTH_SHORT).show();
             }
         });

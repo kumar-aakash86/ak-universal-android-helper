@@ -40,6 +40,9 @@ Date formatting & Comparision
 Advance text styling    
 Text click in multiline TextView.
 
+[**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities)    
+Check for update on Google Play Store
+
 **Usage**    
 Add this in your application's build.gradle
     
@@ -56,7 +59,7 @@ You are ready to go.
 See [**wiki**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
 
 **Version: 1.2.0**
-* Added a simple play store app update checker 
+* Added a simple play store app update checker (see wiki for [**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities#app-version-checker))
 * Logging feature optimization
 * Can log simple strings with tags & message
 
