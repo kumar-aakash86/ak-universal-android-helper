@@ -59,6 +59,9 @@ Setup AKUniversalHelper with following code in application file.
 You are ready to go.    
 See [**wiki**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki) for syntax guide    
 
+**Version: 1.2.2**
+* Bug fix
+
 **Version: 1.2.1**
 * Ask for rating dialog added (see wiki for [**App Utilities**](https://github.com/kumar-aakash86/ak-universal-android-helper/wiki/App-Utilities#ask-for-rating))
 
