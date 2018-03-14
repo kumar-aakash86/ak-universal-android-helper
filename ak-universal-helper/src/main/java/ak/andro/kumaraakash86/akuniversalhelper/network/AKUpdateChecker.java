@@ -115,8 +115,14 @@ public class AKUpdateChecker {
         String tagEnd = "</div>";
         int version = 0;
 
-        response = response.substring(response.indexOf("<div class=\"content\" itemprop=\"softwareVersion\">")+tagStart.length());
-        version = Integer.valueOf(response.substring(0, response.indexOf(tagEnd)).replaceAll("[^\\d]", ""));
+        try {
+            response = response.substring(response.indexOf("<div class=\"content\" itemprop=\"softwareVersion\">") + tagStart.length());
+            version = Integer.valueOf(response.substring(0, response.indexOf(tagEnd)).replaceAll("[^\\d]", ""));
+        }
+        catch (Exception e)
+        {
+            AKLogFunctions.ErrorMessage(getClass(), "CompareVersions", e);
+        }
         onUpdateCallback.onUpdateFound(version > versionToCheck);
     }
 }
