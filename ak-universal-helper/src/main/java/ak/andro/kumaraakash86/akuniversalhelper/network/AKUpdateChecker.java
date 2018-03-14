@@ -117,6 +117,6 @@ public class AKUpdateChecker {
 
         response = response.substring(response.indexOf("<div class=\"content\" itemprop=\"softwareVersion\">")+tagStart.length());
         version = Integer.valueOf(response.substring(0, response.indexOf(tagEnd)).replaceAll("[^\\d]", ""));
-        onUpdateCallback.onUpdateFound(version < versionToCheck);
+        onUpdateCallback.onUpdateFound(version > versionToCheck);
     }
 }
