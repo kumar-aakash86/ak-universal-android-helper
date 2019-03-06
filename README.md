@@ -47,7 +47,7 @@ Ask for rating dialog
 **Usage**    
 Add this in your application's build.gradle
     
-    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.2.1'
+    compile 'ak.andro.kumaraakash86:ak-universal-helper:1.2.3'
 
 
 **Setup**    
